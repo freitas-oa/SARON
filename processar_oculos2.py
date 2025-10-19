@@ -7,19 +7,21 @@ from pathlib import Path
 import google.generativeai as genai
 from PIL import Image
 import dotenv
+import time
 
 # --- CONFIGURAÇÃO ---
 # 1. Chave de API e Pastas (do seu script)
 
-GOOGLE_API_KEY = dotenv.get_key('GOOGLE_API_KEY')
+dotenv.load_dotenv()  # Carrega variáveis do arquivo .env
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
 PASTA_SAIDA = Path(r"C:\Documentos\SARON\ImagensProcessadas")
 PASTA_ENTRADA = Path(r"C:\Documentos\SARON\ImagensPreProcessadas")
 # --------------------
 
 # --- Constantes do Script ---
-LOG_FILE = Path("processed_files.log")
+LOG_FILE = Path("processing_events.log") # Único ficheiro de log
 DATA_FILE = Path("extracted_data.json")
-ERROR_LOG_FILE = Path("error_batches.log")
 BATCH_SIZE = 5
 PAUSE_AFTER_BATCHES = 5
 
@@ -42,32 +44,18 @@ except Exception as e:
 
 # --- Funções Auxiliares de Log e Dados ---
 
-def load_processed_files() -> set:
-    """Carrega os nomes dos arquivos já processados."""
-    if not LOG_FILE.exists():
-        return set()
+def log_event(status: str, message: str, filenames: list = None):
+    """Registra um evento (sucesso, falha, aviso) no log único."""
     try:
-        with open(LOG_FILE, 'r') as f:
-            return set(line.strip() for line in f)
-    except Exception as e:
-        print(f"Aviso: Não foi possível ler o arquivo de log: {e}")
-        return set()
-
-def log_processed_file(filename: str):
-    """Registra um arquivo como processado."""
-    try:
-        with open(LOG_FILE, 'a') as f:
-            f.write(f"{filename}\n")
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+        with open(LOG_FILE, 'a', encoding='utf-8') as f:
+            f.write(f"[{timestamp}] [{status:^15}] {message}\n")
+            if filenames:
+                for name in filenames:
+                    f.write(f"                   - {name}\n")
     except Exception as e:
         print(f"Aviso: Não foi possível escrever no arquivo de log: {e}")
 
-def log_error_batch(batch_files: list):
-    """Registra um lote que falhou em encontrar uma imagem chave."""
-    try:
-        with open(ERROR_LOG_FILE, 'a') as f:
-            f.write(f"Failed to find key image in batch: {', '.join([p.name for p in batch_files])}\n")
-    except Exception as e:
-        print(f"Aviso: Não foi possível escrever no log de erros: {e}")
 
 def load_data() -> list:
     """Carrega o JSON de dados extraídos."""
@@ -83,67 +71,84 @@ def load_data() -> list:
         print(f"Aviso: Não foi possível ler {DATA_FILE}: {e}")
         return []
 
-import json
+def load_processed_files_from_json(data_list: list) -> set:
+    """Extrai todos os nomes de ficheiros do JSON de dados (sucessos)."""
+    filenames = set()
+    try:
+        for entry in data_list:
+            if "image_files" in entry:
+                for img_group in entry["image_files"]:
+                    if "key_file" in img_group and img_group["key_file"]:
+                        filenames.add(img_group["key_file"])
+                    if "additional_files" in img_group:
+                        filenames.update(img_group["additional_files"])
+    except Exception as e:
+        print(f"Aviso: Não foi possível ler nomes de ficheiros do JSON: {e}")
+        log_event("ERRO_JSON", f"Não foi possível ler nomes de ficheiros do JSON: {e}")
+    return filenames
 
-# Assumindo que DATA_FILE está definida em algum lugar, ex:
-# DATA_FILE = 'seu_arquivo.json'
-
-def save_data(data_list: list, new_entry: dict):
+def save_data(data_list: list, new_data: dict, key_file: str, additional_files: list):
     """
-    Salva os dados no JSON, transformando a estrutura plana em aninhada.
-    Se a referência existir, mescla a cor e a imagem.
-    Se for nova, adiciona a entrada na nova estrutura.
+    Salva os dados no JSON, usando a nova estrutura aninhada.
+    Se a referência existir, mescla o novo grupo de cor/ficheiros.
     """
     
-    # Extrai dados da nova entrada (formato plano)
-    new_ref = new_entry.get('reference')
-    new_color = new_entry.get('color')
-    new_img_key = new_entry.get('key_image_file')
-
-    # Validação básica
-    if not all([new_ref, new_color, new_img_key]):
-        print("Aviso: Nova entrada incompleta. Faltando ref, cor ou imagem.")
+    new_ref = new_data.get('reference')
+    new_color = new_data.get('color')
+    
+    if not all([new_ref, new_color, key_file]):
+        print("Aviso: Nova entrada incompleta. Faltando ref, cor ou imagem chave.")
+        log_event("ERRO_SAVE", "Nova entrada incompleta", [key_file])
         return
 
+    # Cria a nova entrada de ficheiro (para a cor específica)
+    new_file_entry = {
+        "color": new_color,
+        "key_file": key_file,
+        "additional_files": additional_files
+    }
+
     found_ref = False
-    
-    # Procura pela referência na lista (que está no formato aninhado)
     for entry in data_list:
         if entry.get('reference') == new_ref:
             found_ref = True
             
-            # Pega (ou cria se não existir) o dicionário 'images'
-            images_dict = entry.setdefault('images', {})
+            # Garante que 'image_files' existe
+            image_files_list = entry.setdefault('image_files', [])
             
-            # Pega (ou cria se não existir) a lista de cores para esta imagem
-            color_list = images_dict.setdefault(new_img_key, [])
+            # Verifica se esta cor já foi processada
+            found_color = False
+            for img_group in image_files_list:
+                if img_group.get('color') == new_color:
+                    # A cor já existe. Apenas por segurança, atualiza os ficheiros.
+                    img_group['key_file'] = key_file
+                    img_group['additional_files'] = additional_files
+                    found_color = True
+                    break
             
-            # Adiciona a nova cor apenas se ela não estiver na lista
-            if new_color not in color_list:
-                color_list.append(new_color)
+            if not found_color:
+                image_files_list.append(new_file_entry)
             
             break # Referência encontrada e processada
 
     # Se a referência não foi encontrada, cria uma nova entrada
     if not found_ref:
-        # Transforma a entrada plana na nova estrutura aninhada
         transformed_entry = {
             "reference": new_ref,
-            "size1": new_entry.get('size1'),
-            "size2": new_entry.get('size2'),
-            "size3": new_entry.get('size3'),
-            "images": {
-                new_img_key: [new_color]
-            }
+            "size1": new_data.get('size1'),
+            "size2": new_data.get('size2'),
+            "size3": new_data.get('size3'),
+            "image_files": [new_file_entry] # Adiciona a nova entrada de ficheiro
         }
         data_list.append(transformed_entry)
 
-    # Salva a lista completa (no novo formato aninhado)
+    # Salva a lista completa
     try:
         with open(DATA_FILE, 'w', encoding='utf-8') as f:
             json.dump(data_list, f, indent=2, ensure_ascii=False)
     except Exception as e:
         print(f"Aviso: Não foi possível salvar {DATA_FILE}: {e}")
+        log_event("ERRO_SAVE", f"Não foi possível salvar {DATA_FILE}: {e}")
 
 
 def validate_image(image_path: Path) -> bool:
@@ -155,20 +160,20 @@ def validate_image(image_path: Path) -> bool:
             img.load() 
         return True
     except Exception as e:
-        print(f"  [AVISO] Imagem corrompida ou inválida: {image_path.name}: {e}")
-        log_processed_file(image_path.name) # Log para ignorar futuramente
+        print(f"   [AVISO] Imagem corrompida ou inválida: {image_path.name}: {e}")
+        log_event("IMG_CORROMPIDA", f"Imagem corrompida: {e}", [image_path.name])
         return False
 
 # --- NOVA FUNÇÃO DE API ÚNICA ---
 
 def call_gemini_process_batch(batch_paths: list[Path]) -> dict | None:
     """
-    Envia o LOTE INTEIRO para a API e pede para:
+    Envia o LOTE INTEIRO para la API e pede para:
     1. Encontrar a imagem chave (com texto).
     2. Extrair os dados dessa imagem.
     3. Encontrar todas as imagens similares (mesmo modelo, ignora cor).
     """
-    print(f"  > Analisando lote de {len(batch_paths)} imagens com Gemini...")
+    print(f"   > Analisando lote de {len(batch_paths)} imagens com Gemini...")
     pil_images = []
     file_names = []
     
@@ -223,7 +228,8 @@ def call_gemini_process_batch(batch_paths: list[Path]) -> dict | None:
             return None
 
     except Exception as e:
-        print(f"  ! Erro na chamada à API Gemini (process_batch): {e}")
+        print(f"   ! Erro na chamada à API Gemini (process_batch): {e}")
+        log_event("ERRO_API", f"Chamada à API falhou: {e}")
         return None
     finally:
         # Garante que todas as imagens PIL sejam fechadas
@@ -236,70 +242,89 @@ def main():
     print("Iniciando script de processamento de óculos...")
     print(f"Pasta de Entrada: {PASTA_ENTRADA}")
     print(f"Pasta de Saída: {PASTA_SAIDA}")
+    log_event("SCRIPT_START", "Script iniciado.")
 
     # 1. Setup inicial
     PASTA_SAIDA.mkdir(exist_ok=True)
-    processed_files = load_processed_files()
-    all_data = load_data()
     
-    # 2. Encontrar arquivos para processar
+    # Guarda falhas (corrompidas, falhas de API) APENAS desta sessão
+    # para evitar loops infinitos dentro da mesma execução.
+    # Não é lido do disco.
+    failed_files_session = set()
+    
     tipos_de_imagem = ('*.png', '*.jpg', '*.jpeg', '*.bmp', '*.tiff')
-    all_files = []
-    for tipo in tipos_de_imagem:
-        all_files.extend(PASTA_ENTRADA.glob(tipo))
-
-    unprocessed_files = sorted([p for p in all_files if p.name not in processed_files])
-    
-    if not unprocessed_files:
-        print("Nenhum arquivo novo para processar.")
-        return
-
-    print(f"Encontrados {len(unprocessed_files)} arquivos novos para processar (de {len(all_files)} no total).")
-
-    # 3. Criar lotes
-    batches = [unprocessed_files[i:i + BATCH_SIZE] for i in range(0, len(unprocessed_files), BATCH_SIZE)]
-    
     batch_counter = 0
-    total_batches = len(batches)
 
-    # 4. Processar lotes
-    for i, current_batch in enumerate(batches):
+    # 4. Processar lotes (agora com um loop while)
+    while True:
+        # 2. Encontrar arquivos para processar (DENTRO DO LOOP)
+        # Lê todos os ficheiros da pasta
+        all_files = []
+        for tipo in tipos_de_imagem:
+            all_files.extend(PASTA_ENTRADA.glob(tipo))
+            
+        # Carrega os dados de SUCESSO (do JSON) a cada iteração
+        all_data = load_data()
+        files_in_json = load_processed_files_from_json(all_data)
+        
+        # Combina ficheiros de SUCESSO (do json) com falhas DESTA SESSÃO
+        all_skipped_files = files_in_json.union(failed_files_session)
+
+        # Filtra usando o set combinado 'all_skipped_files'
+        unprocessed_files = sorted([p for p in all_files if p.name not in all_skipped_files])
+        
+        if not unprocessed_files:
+            print("Nenhum arquivo novo para processar.")
+            break # Sai do loop while
+
+        total_files_remaining = len(unprocessed_files)
+        total_batches_remaining = (total_files_remaining + BATCH_SIZE - 1) // BATCH_SIZE
+        print(f"\nEncontrados {total_files_remaining} arquivos novos para processar.")
+
+        # 3. Criar lote dinâmico
+        current_batch = unprocessed_files[:BATCH_SIZE]
+        
         batch_counter += 1
-        print(f"\n--- Processando Lote {batch_counter}/{total_batches} ---")
+        print(f"\n--- Processando Lote {batch_counter} (Aprox. {total_batches_remaining} lotes restantes) ---")
         
         # 4.1. Validar imagens ANTES de enviar à API
         valid_images_in_batch = []
         for img_path in current_batch:
             if validate_image(img_path):
                 valid_images_in_batch.append(img_path)
-            # 'validate_image' já loga o erro e o ficheiro como "processado"
+            else:
+                # Se a imagem é inválida, 'validate_image' já logou.
+                # Adicionamos ao set em memória para a próxima iteração do while.
+                failed_files_session.add(img_path.name) 
 
         if not valid_images_in_batch:
-            print("  [AVISO] Nenhuma imagem válida neste lote. A saltar.")
-            continue # Os ficheiros corrompidos já foram logados
-        
-        # print the name of images being sent
-        print("  Imagens válidas neste lote:")
-        for img in valid_images_in_batch:
-            print(f"    - {img.name}")
+            print("   [AVISO] Nenhuma imagem válida neste lote. A saltar.")
+            continue # Próxima iteração do loop while
 
+        # print the name of images being sent
+        print("   Imagens válidas neste lote:")
+        for img in valid_images_in_batch:
+            print(f"     - {img.name}")
+
+        time.sleep(30)
         # 4.2. Chamar a API (UMA SÓ VEZ)
         api_result = call_gemini_process_batch(valid_images_in_batch)
 
         # 4.3. Processar resultado da API
         if not api_result or not api_result.get("data"):
-            print("  [FALHA] Nenhuma imagem chave encontrada pela API neste lote.")
-            log_error_batch(current_batch) # Loga o lote original
-            # Loga todos os ficheiros deste lote como "processados" para não tentar novamente
+            print("   [FALHA] Nenhuma imagem chave encontrada pela API neste lote.")
+            # Loga o lote original
+            log_event("FALHA_API", "Nenhuma imagem chave encontrada no lote", [p.name for p in current_batch])
+            
+            # Adiciona todos os ficheiros deste lote ao set de falhas da sessão
             for img_path in current_batch:
-                log_processed_file(img_path.name)
-            continue # Próximo lote
+                failed_files_session.add(img_path.name)
+            continue # Próxima iteração do loop while
 
         # 4.4. Sucesso - Extrair dados da resposta
         parsed_data = api_result["data"]
         key_image_name = api_result["key_image_name"]
         
-        # Encontra o Path completo da imagem chave (necessário para o log de dados)
         key_image_path = None
         for p in valid_images_in_batch:
             if p.name == key_image_name:
@@ -307,61 +332,73 @@ def main():
                 break
         
         if not key_image_path:
-             print(f"  [ERRO] API retornou key_image '{key_image_name}' mas não foi encontrado no lote. A saltar.")
-             log_error_batch(current_batch)
+             print(f"   [ERRO] API retornou key_image '{key_image_name}' mas não foi encontrado no lote. A saltar.")
+             log_event("ERRO_INTERNO", f"API retornou '{key_image_name}' mas não foi encontrado", [p.name for p in current_batch])
+             # Loga todos os ficheiros do lote como "processados" (falhados)
+             for img_path in current_batch:
+                 failed_files_session.add(img_path.name)
              continue
 
-        print(f"  [SUCESSO] Imagem Chave encontrada pela API: {key_image_name}")
-        print(f"  Dados extraídos: {parsed_data}")
+        print(f"   [SUCESSO] Imagem Chave encontrada pela API: {key_image_name}")
+        print(f"   Dados extraídos: {parsed_data}")
 
         matched_filenames = api_result["matched_filenames"]
         matched_paths = [p for p in current_batch if p.name in matched_filenames]
         
         # 4.5. Organizar arquivos
-        # Limpa a referência para que seja um nome de pasta válido
         reference_clean = str(parsed_data["reference"]).replace('/', '_').replace('\\', '_').strip()
         if not reference_clean:
-                print(f"  [ERRO] Referência extraída está vazia. A ignorar lote.")
-                log_error_batch(current_batch)
+                print(f"   [ERRO] Referência extraída está vazia. A ignorar lote.")
+                log_event("ERRO_DADOS", "Referência extraída está vazia", [p.name for p in current_batch])
+                # Loga todos os ficheiros do lote como "processados" (falhados)
+                for img_path in current_batch:
+                    failed_files_session.add(img_path.name)
                 continue
                 
         target_dir = PASTA_SAIDA / reference_clean
         target_dir.mkdir(exist_ok=True)
         
-        print(f"  Movendo {len(matched_paths)} arquivos para {target_dir}")
+        print(f"   Movendo {len(matched_paths)} arquivos para {target_dir}")
         
         i = 0
         for file_path in matched_paths:
             try:
-                # Move o ficheiro com o nome original
                 shutil.copy(str(file_path), str(target_dir / f"{parsed_data['reference']}_{parsed_data['color']}_{str(i)}.jpg"))
-                log_processed_file(file_path.name) # Log de sucesso (Req 1)
             except Exception as e:
-                print(f"  [ERRO] Falha ao mover {file_path.name}: {e}")
+                print(f"   [ERRO] Falha ao mover {file_path.name}: {e}")
+                log_event("ERRO_MOVIMENTO", f"Falha ao mover {file_path.name}: {e}", [file_path.name])
                 if (target_dir / file_path.name).exists():
-                        print(f"  Ficheiro já existia no destino. A registar como processado.")
-                        log_processed_file(file_path.name)
+                        print(f"   Ficheiro já existia no destino.")
             i += 1
         
-        # 4.6. Salvar dados
-        new_entry = {**parsed_data, "key_image_file": key_image_path.name}
-        save_data(all_data, new_entry)
+        # 4.6. Salvar dados (no novo formato)
+        # Prepara os ficheiros adicionais (todos os 'matched' exceto o 'key')
+        additional_files = [p.name for p in matched_paths if p.name != key_image_name]
+        save_data(all_data, parsed_data, key_image_name, additional_files)
+        
+        # Loga o sucesso
+        log_event("SUCESSO", f"Ref {parsed_data['reference']} Cor {parsed_data['color']}", [p.name for p in matched_paths])
+
         
         # 4.7. Pausa (Req 4)
-        if batch_counter % PAUSE_AFTER_BATCHES == 0 and batch_counter < total_batches:
+        # Verifica se a pausa é necessária e se ainda há ficheiros para processar
+        # Recalcula os ficheiros restantes (sem os que acabaram de ser processados com sucesso)
+        remaining_after_success = len(unprocessed_files) - len(matched_paths)
+        
+        if batch_counter % PAUSE_AFTER_BATCHES == 0 and remaining_after_success > 0:
             print(f"\n--- Pausado após {batch_counter} lotes. ---")
             try:
-                input("Pressione Enter para continuar os próximos 5 lotes (ou CTRL+C para parar)...")
+                input("Pressione Enter para continuar (ou CTRL+C para parar)...")
             except KeyboardInterrupt:
                 print("\nProcessamento interrompido pelo usuário.")
-                break
+                log_event("SCRIPT_STOP", "Script interrompido pelo usuário.")
+                break # Sai do loop while
 
     print("\nProcessamento concluído.")
+    log_event("SCRIPT_END", "Processamento concluído.")
 
 if __name__ == "__main__":
     if not PASTA_ENTRADA.is_dir():
         print(f"ERRO: A pasta de entrada '{PASTA_ENTRADA}' não foi encontrada.")
-    elif "AIzaSyC" not in GOOGLE_API_KEY: # Check simples se a key foi mudada
-        print("ERRO: Por favor, substitua 'AIzaSyC...' pela sua chave de API do Gemini no script.")
     else:
         main()

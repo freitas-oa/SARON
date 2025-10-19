@@ -1,35 +1,133 @@
 [
   {
-    "reference": "750155",
-    "size1": "52",
-    "size2": "16",
-    "size3": "140",
-    "images": {
-      "RUS_0258.jpg": [
-        "C03"
-      ]
-    }
-  },
-  {
-    "reference": "61033",
-    "size1": "53",
-    "size2": "15",
-    "size3": "145",
-    "images": {
-      "RUS_0260.jpg": [
-        "C3"
-      ]
-    }
-  },
-  {
     "reference": "61037",
     "size1": "54",
     "size2": "18",
     "size3": "145",
-    "images": {
-      "RUS_0002.jpg": [
-        "C2"
-      ]
-    }
+    "image_files": [
+      {
+        "color": "C2",
+        "key_file": "RUS_0002.jpg",
+        "additional_files": [
+          "RUS_0001.jpg"
+        ]
+      },
+      {
+        "color": "C1",
+        "key_file": "RUS_0010.jpg",
+        "additional_files": [
+          "RUS_0008.jpg",
+          "RUS_0009.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "reference": "037",
+    "size1": "54",
+    "size2": "18",
+    "size3": "145",
+    "image_files": [
+      {
+        "color": "C4",
+        "key_file": "RUS_0006.jpg",
+        "additional_files": [
+          "RUS_0003.jpg",
+          "RUS_0004.jpg",
+          "RUS_0005.jpg",
+          "RUS_0007.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "reference": "9118",
+    "size1": "54",
+    "size2": "17",
+    "size3": "145",
+    "image_files": [
+      {
+        "color": "C6",
+        "key_file": "RUS_0016.jpg",
+        "additional_files": [
+          "RUS_0013.jpg",
+          "RUS_0014.jpg",
+          "RUS_0015.jpg"
+        ]
+      },
+      {
+        "color": "C4",
+        "key_file": "RUS_0020.jpg",
+        "additional_files": [
+          "RUS_0017.jpg",
+          "RUS_0018.jpg",
+          "RUS_0019.jpg",
+          "RUS_0021.jpg"
+        ]
+      },
+      {
+        "color": "C2",
+        "key_file": "RUS_0028.jpg",
+        "additional_files": [
+          "RUS_0027.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "reference": "0109",
+    "size1": "54",
+    "size2": "17",
+    "size3": "145",
+    "image_files": [
+      {
+        "color": "C3",
+        "key_file": "RUS_0024.jpg",
+        "additional_files": [
+          "RUS_0022.jpg",
+          "RUS_0023.jpg",
+          "RUS_0025.jpg",
+          "RUS_0026.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "reference": "21229",
+    "size1": "54",
+    "size2": "19",
+    "size3": "145",
+    "image_files": [
+      {
+        "color": "C1",
+        "key_file": "RUS_0032.jpg",
+        "additional_files": [
+          "RUS_0029.jpg",
+          "RUS_0030.jpg",
+          "RUS_0031.jpg",
+          "RUS_0033.jpg"
+        ]
+      },
+      {
+        "color": "C3",
+        "key_file": "RUS_0036.jpg",
+        "additional_files": [
+          "RUS_0034.jpg",
+          "RUS_0035.jpg",
+          "RUS_0037.jpg",
+          "RUS_0038.jpg"
+        ]
+      },
+      {
+        "color": "C5",
+        "key_file": "RUS_0040.jpg",
+        "additional_files": [
+          "RUS_0039.jpg",
+          "RUS_0041.jpg",
+          "RUS_0042.jpg",
+          "RUS_0043.jpg"
+        ]
+      }
+    ]
   }
 ]

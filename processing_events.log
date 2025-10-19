@@ -1,0 +1,447 @@
+[2025-10-19 16:57:15] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 16:57:26] [    SUCESSO    ] Ref 61037 Cor C2
+                   - RUS_0001.jpg
+                   - RUS_0002.jpg
+[2025-10-19 16:58:34] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 16:58:47] [    SUCESSO    ] Ref 61037 Cor C2
+                   - RUS_0001.jpg
+                   - RUS_0002.jpg
+[2025-10-19 16:58:58] [    SUCESSO    ] Ref 037 Cor C4
+                   - RUS_0003.jpg
+                   - RUS_0004.jpg
+                   - RUS_0005.jpg
+                   - RUS_0006.jpg
+                   - RUS_0007.jpg
+[2025-10-19 16:59:10] [    SUCESSO    ] Ref 61037 Cor C1
+                   - RUS_0008.jpg
+                   - RUS_0009.jpg
+                   - RUS_0010.jpg
+[2025-10-19 16:59:10] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 49.029568912s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+[2025-10-19 16:59:10] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0013.jpg
+                   - RUS_0014.jpg
+                   - RUS_0015.jpg
+                   - RUS_0016.jpg
+                   - RUS_0017.jpg
+[2025-10-19 16:59:11] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 48.695429435s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+[2025-10-19 16:59:11] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0018.jpg
+                   - RUS_0019.jpg
+                   - RUS_0020.jpg
+                   - RUS_0021.jpg
+                   - RUS_0022.jpg
+[2025-10-19 16:59:11] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 48.355595035s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+[2025-10-19 16:59:11] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0023.jpg
+                   - RUS_0024.jpg
+                   - RUS_0025.jpg
+                   - RUS_0026.jpg
+                   - RUS_0027.jpg
+[2025-10-19 16:59:11] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 48.037115242s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+[2025-10-19 16:59:11] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0028.jpg
+                   - RUS_0029.jpg
+                   - RUS_0030.jpg
+                   - RUS_0031.jpg
+                   - RUS_0032.jpg
+[2025-10-19 16:59:12] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 47.728127937s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+[2025-10-19 16:59:12] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0033.jpg
+                   - RUS_0034.jpg
+                   - RUS_0035.jpg
+                   - RUS_0036.jpg
+                   - RUS_0037.jpg
+[2025-10-19 16:59:12] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 47.38718342s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+[2025-10-19 16:59:12] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0038.jpg
+                   - RUS_0039.jpg
+                   - RUS_0040.jpg
+                   - RUS_0041.jpg
+                   - RUS_0042.jpg
+[2025-10-19 16:59:12] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 46.99296795s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+[2025-10-19 16:59:12] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0043.jpg
+                   - RUS_0044.jpg
+                   - RUS_0045.jpg
+                   - RUS_0046.jpg
+                   - RUS_0047.jpg
+[2025-10-19 16:59:13] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 46.637764935s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+[2025-10-19 16:59:13] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0048.jpg
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 16:59:13] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 46.268360699s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+[2025-10-19 16:59:13] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0053.jpg
+                   - RUS_0054.jpg
+                   - RUS_0055.jpg
+                   - RUS_0056.jpg
+                   - RUS_0057.jpg
+[2025-10-19 16:59:14] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 45.909339637s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+[2025-10-19 16:59:14] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0058.jpg
+                   - RUS_0059.jpg
+                   - RUS_0060.jpg
+                   - RUS_0061.jpg
+                   - RUS_0062.jpg
+[2025-10-19 16:59:14] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 45.544780022s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+[2025-10-19 16:59:14] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0063.jpg
+                   - RUS_0064.jpg
+                   - RUS_0065.jpg
+                   - RUS_0066.jpg
+                   - RUS_0067.jpg
+[2025-10-19 16:59:14] [   ERRO_API    ] Chamada à API falhou: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 2
+Please retry in 45.199264934s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 2
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+[2025-10-19 16:59:14] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0068.jpg
+                   - RUS_0069.jpg
+                   - RUS_0070.jpg
+                   - RUS_0071.jpg
+                   - RUS_0072.jpg
+[2025-10-19 17:00:00] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 17:00:11] [    SUCESSO    ] Ref 9118 Cor C6
+                   - RUS_0013.jpg
+                   - RUS_0014.jpg
+                   - RUS_0015.jpg
+                   - RUS_0016.jpg
+                   - RUS_0017.jpg
+[2025-10-19 17:00:18] [    SUCESSO    ] Ref 9118 Cor C4
+                   - RUS_0018.jpg
+                   - RUS_0019.jpg
+                   - RUS_0020.jpg
+                   - RUS_0021.jpg
+                   - RUS_0022.jpg
+[2025-10-19 17:00:26] [    SUCESSO    ] Ref 0109 Cor C3
+                   - RUS_0023.jpg
+                   - RUS_0024.jpg
+                   - RUS_0025.jpg
+                   - RUS_0026.jpg
+                   - RUS_0027.jpg
+[2025-10-19 17:00:53] [    SUCESSO    ] Ref 9801 Cor C1 CE
+                   - RUS_0029.jpg
+                   - RUS_0030.jpg
+                   - RUS_0031.jpg
+[2025-10-19 17:01:05] [    SUCESSO    ] Ref 9118 Cor C2
+                   - RUS_0028.jpg
+[2025-10-19 17:10:32] [  SCRIPT_STOP  ] Script interrompido pelo usuário.
+[2025-10-19 17:10:32] [  SCRIPT_END   ] Processamento concluído.
+[2025-10-19 17:11:08] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 17:11:42] [    SUCESSO    ] Ref 61037 Cor C2
+                   - RUS_0001.jpg
+                   - RUS_0002.jpg
+[2025-10-19 17:12:11] [    SUCESSO    ] Ref 037 Cor C4
+                   - RUS_0003.jpg
+                   - RUS_0004.jpg
+                   - RUS_0005.jpg
+                   - RUS_0006.jpg
+                   - RUS_0007.jpg
+[2025-10-19 17:12:41] [    SUCESSO    ] Ref 61037 Cor C1
+                   - RUS_0008.jpg
+                   - RUS_0009.jpg
+                   - RUS_0010.jpg
+[2025-10-19 17:13:18] [    SUCESSO    ] Ref 9118 Cor C6
+                   - RUS_0013.jpg
+                   - RUS_0014.jpg
+                   - RUS_0015.jpg
+                   - RUS_0016.jpg
+[2025-10-19 17:13:58] [    SUCESSO    ] Ref 9118 Cor C4
+                   - RUS_0017.jpg
+                   - RUS_0018.jpg
+                   - RUS_0019.jpg
+                   - RUS_0020.jpg
+                   - RUS_0021.jpg
+[2025-10-19 17:15:16] [    SUCESSO    ] Ref 0109 Cor C3
+                   - RUS_0022.jpg
+                   - RUS_0023.jpg
+                   - RUS_0024.jpg
+                   - RUS_0025.jpg
+                   - RUS_0026.jpg
+[2025-10-19 17:15:51] [    SUCESSO    ] Ref 9118 Cor C2
+                   - RUS_0027.jpg
+                   - RUS_0028.jpg
+[2025-10-19 17:16:20] [    SUCESSO    ] Ref 21229 Cor C1
+                   - RUS_0029.jpg
+                   - RUS_0030.jpg
+                   - RUS_0031.jpg
+                   - RUS_0032.jpg
+                   - RUS_0033.jpg
+[2025-10-19 17:16:51] [    SUCESSO    ] Ref 21229 Cor C3
+                   - RUS_0034.jpg
+                   - RUS_0035.jpg
+                   - RUS_0036.jpg
+                   - RUS_0037.jpg
+                   - RUS_0038.jpg
+[2025-10-19 17:17:25] [    SUCESSO    ] Ref 21229 Cor C5
+                   - RUS_0039.jpg
+                   - RUS_0040.jpg
+                   - RUS_0041.jpg
+                   - RUS_0042.jpg
+                   - RUS_0043.jpg
+[2025-10-19 17:21:50] [  SCRIPT_STOP  ] Script interrompido pelo usuário.
+[2025-10-19 17:21:50] [  SCRIPT_END   ] Processamento concluído.
