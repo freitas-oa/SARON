@@ -1,0 +1,35 @@
+[
+  {
+    "reference": "750155",
+    "size1": "52",
+    "size2": "16",
+    "size3": "140",
+    "images": {
+      "RUS_0258.jpg": [
+        "C03"
+      ]
+    }
+  },
+  {
+    "reference": "61033",
+    "size1": "53",
+    "size2": "15",
+    "size3": "145",
+    "images": {
+      "RUS_0260.jpg": [
+        "C3"
+      ]
+    }
+  },
+  {
+    "reference": "61037",
+    "size1": "54",
+    "size2": "18",
+    "size3": "145",
+    "images": {
+      "RUS_0002.jpg": [
+        "C2"
+      ]
+    }
+  }
+]

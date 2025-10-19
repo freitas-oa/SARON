@@ -1,0 +1,69 @@
+[
+  {
+    "reference": "70037",
+    "size1": "54",
+    "size2": "18",
+    "size3": "145",
+    "color": "C03",
+    "key_image_file": "RUS_0022.jpg"
+  },
+  {
+    "reference": "0038",
+    "size1": "54",
+    "size2": "18",
+    "size3": "145",
+    "color": "C4",
+    "key_image_file": "RUS_0038.jpg"
+  },
+  {
+    "reference": "61024",
+    "size1": "55",
+    "size2": "17",
+    "size3": "145",
+    "color": "C2",
+    "key_image_file": "RUS_0176.jpg"
+  },
+  {
+    "reference": "9121",
+    "size1": "55",
+    "size2": "17",
+    "size3": "142",
+    "color": "C3",
+    "key_image_file": "RUS_0184.jpg"
+  },
+  {
+    "reference": "0126",
+    "size1": "54",
+    "size2": "17",
+    "size3": "142",
+    "color": "C2",
+    "key_image_file": "RUS_0244.jpg"
+  },
+  {
+    "reference": "9126",
+    "size1": "54",
+    "size2": "17",
+    "size3": "142",
+    "color": "C3",
+    "key_image_file": "RUS_0248.jpg"
+  },
+  {
+    "reference": "61033",
+    "size1": "53",
+    "size2": "15",
+    "size3": "145",
+    "color": "C2",
+    "key_image_file": "RUS_0256.jpg"
+  },
+  {
+    "reference": "081074",
+    "size1": "53",
+    "size2": "17",
+    "size3": "140",
+    "images": {
+      "RUS_0198.jpg": [
+        "C1"
+      ]
+    }
+  }
+]
