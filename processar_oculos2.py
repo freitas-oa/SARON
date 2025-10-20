@@ -23,7 +23,7 @@ PASTA_ENTRADA = Path(r"C:\Documentos\SARON\ImagensPreProcessadas")
 LOG_FILE = Path("processing_events.log") # Único ficheiro de log
 DATA_FILE = Path("extracted_data.json")
 BATCH_SIZE = 5
-PAUSE_AFTER_BATCHES = 5
+# PAUSE_AFTER_BATCHES = 0
 
 # --- Configuração da API Gemini ---
 try:
@@ -171,7 +171,7 @@ def call_gemini_process_batch(batch_paths: list[Path]) -> dict | None:
     Envia o LOTE INTEIRO para la API e pede para:
     1. Encontrar a imagem chave (com texto).
     2. Extrair os dados dessa imagem.
-    3. Encontrar todas as imagens similares (mesmo modelo, ignora cor).
+    3. Encontrar todas as imagens similares (mesmo modelo e cor).
     """
     print(f"   > Analisando lote de {len(batch_paths)} imagens com Gemini...")
     pil_images = []
@@ -191,7 +191,7 @@ def call_gemini_process_batch(batch_paths: list[Path]) -> dict | None:
 
         2.  **Extrair Dados:** Da imagem chave encontrada na Etapa 1, extraia os 5 componentes: Referência, Tamanho, Tamanho2, Tamanho3, e Cor.
 
-        3.  **Comparar Modelo:** Identifique quais imagens no lote (incluindo a imagem chave) mostram o *mesmo modelo (mesma referência)* de óculos. **Ignore a cor** para esta etapa; foque-se apenas no formato e design.
+        3.  **Comparar Modelo:** Identifique quais imagens no lote (incluindo a imagem chave) mostram o *mesmo modelo (mesma referência)* de óculos. **Incluir a cor** para esta etapa; foque-se no formato, design e cor.
 
         Responda APENAS com um objeto JSON no seguinte formato:
 
@@ -306,7 +306,7 @@ def main():
         for img in valid_images_in_batch:
             print(f"     - {img.name}")
 
-        time.sleep(30)
+        #time.sleep(30)
         # 4.2. Chamar a API (UMA SÓ VEZ)
         api_result = call_gemini_process_batch(valid_images_in_batch)
 
@@ -383,16 +383,16 @@ def main():
         # 4.7. Pausa (Req 4)
         # Verifica se a pausa é necessária e se ainda há ficheiros para processar
         # Recalcula os ficheiros restantes (sem os que acabaram de ser processados com sucesso)
-        remaining_after_success = len(unprocessed_files) - len(matched_paths)
+        # remaining_after_success = len(unprocessed_files) - len(matched_paths)
         
-        if batch_counter % PAUSE_AFTER_BATCHES == 0 and remaining_after_success > 0:
-            print(f"\n--- Pausado após {batch_counter} lotes. ---")
-            try:
-                input("Pressione Enter para continuar (ou CTRL+C para parar)...")
-            except KeyboardInterrupt:
-                print("\nProcessamento interrompido pelo usuário.")
-                log_event("SCRIPT_STOP", "Script interrompido pelo usuário.")
-                break # Sai do loop while
+        # if batch_counter % PAUSE_AFTER_BATCHES == 0 and remaining_after_success > 0:
+        #     print(f"\n--- Pausado após {batch_counter} lotes. ---")
+        #     try:
+        #         input("Pressione Enter para continuar (ou CTRL+C para parar)...")
+        #     except KeyboardInterrupt:
+        #         print("\nProcessamento interrompido pelo usuário.")
+        #         log_event("SCRIPT_STOP", "Script interrompido pelo usuário.")
+        #         break # Sai do loop while
 
     print("\nProcessamento concluído.")
     log_event("SCRIPT_END", "Processamento concluído.")

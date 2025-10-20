@@ -445,3 +445,1109 @@ Please retry in 45.199264934s. [violations {
                    - RUS_0043.jpg
 [2025-10-19 17:21:50] [  SCRIPT_STOP  ] Script interrompido pelo usuário.
 [2025-10-19 17:21:50] [  SCRIPT_END   ] Processamento concluído.
+[2025-10-19 18:56:27] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 18:57:20] [    SUCESSO    ] Ref 61024 Cor C4
+                   - RUS_0045.jpg
+                   - RUS_0046.jpg
+                   - RUS_0047.jpg
+                   - RUS_0048.jpg
+[2025-10-19 18:58:14] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 18:59:09] [    SUCESSO    ] Ref 51024 Cor C2
+                   - RUS_0044.jpg
+                   - RUS_0054.jpg
+                   - RUS_0055.jpg
+                   - RUS_0056.jpg
+[2025-10-19 18:59:51] [    SUCESSO    ] Ref 61024 Cor C5
+                   - RUS_0053.jpg
+                   - RUS_0057.jpg
+                   - RUS_0058.jpg
+                   - RUS_0059.jpg
+                   - RUS_0060.jpg
+[2025-10-19 19:00:35] [    SUCESSO    ] Ref 61010 Cor C5
+                   - RUS_0061.jpg
+                   - RUS_0062.jpg
+                   - RUS_0063.jpg
+                   - RUS_0064.jpg
+                   - RUS_0065.jpg
+[2025-10-19 19:03:32] [    SUCESSO    ] Ref 61010 Cor C2
+                   - RUS_0066.jpg
+                   - RUS_0067.jpg
+                   - RUS_0068.jpg
+                   - RUS_0069.jpg
+                   - RUS_0070.jpg
+[2025-10-19 19:04:13] [    SUCESSO    ] Ref S1010 Cor C1
+                   - RUS_0071.jpg
+                   - RUS_0072.jpg
+[2025-10-19 19:04:53] [    SUCESSO    ] Ref 61020 Cor C3
+                   - RUS_0073.jpg
+                   - RUS_0074.jpg
+                   - RUS_0075.jpg
+                   - RUS_0076.jpg
+                   - RUS_0077.jpg
+[2025-10-19 19:05:35] [    SUCESSO    ] Ref S1030 Cor C4
+                   - RUS_0078.jpg
+                   - RUS_0079.jpg
+                   - RUS_0080.jpg
+                   - RUS_0081.jpg
+                   - RUS_0082.jpg
+[2025-10-19 19:06:19] [    SUCESSO    ] Ref 61020 Cor C5
+                   - RUS_0083.jpg
+                   - RUS_0084.jpg
+[2025-10-19 19:11:02] [    SUCESSO    ] Ref 9422 Cor C5
+                   - RUS_0085.jpg
+                   - RUS_0086.jpg
+                   - RUS_0087.jpg
+                   - RUS_0088.jpg
+                   - RUS_0089.jpg
+[2025-10-19 19:11:43] [    SUCESSO    ] Ref 9122 Cor C2
+                   - RUS_0090.jpg
+                   - RUS_0091.jpg
+                   - RUS_0092.jpg
+                   - RUS_0096.jpg
+                   - RUS_0097.jpg
+[2025-10-19 19:12:25] [    SUCESSO    ] Ref 9122 Cor C3
+                   - RUS_0098.jpg
+                   - RUS_0099.jpg
+                   - RUS_0100.jpg
+                   - RUS_0101.jpg
+                   - RUS_0102.jpg
+[2025-10-19 19:13:11] [    SUCESSO    ] Ref 9122 Cor C1
+                   - RUS_0103.jpg
+                   - RUS_0105.jpg
+                   - RUS_0106.jpg
+                   - RUS_0107.jpg
+[2025-10-19 19:13:56] [    SUCESSO    ] Ref 1389 Cor C5
+                   - RUS_0108.jpg
+                   - RUS_0109.jpg
+                   - RUS_0110.jpg
+                   - RUS_0111.jpg
+                   - RUS_0112.jpg
+[2025-10-19 19:16:31] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 19:16:42] [    SUCESSO    ] Ref 61037 Cor C2
+                   - RUS_0001.jpg
+                   - RUS_0002.jpg
+[2025-10-19 19:16:54] [    SUCESSO    ] Ref 037 Cor C4
+                   - RUS_0003.jpg
+                   - RUS_0004.jpg
+                   - RUS_0005.jpg
+                   - RUS_0006.jpg
+[2025-10-19 19:17:04] [    SUCESSO    ] Ref 61037 Cor C1
+                   - RUS_0007.jpg
+                   - RUS_0008.jpg
+                   - RUS_0009.jpg
+                   - RUS_0010.jpg
+[2025-10-19 19:17:20] [    SUCESSO    ] Ref 9118 Cor C6
+                   - RUS_0013.jpg
+                   - RUS_0014.jpg
+                   - RUS_0015.jpg
+                   - RUS_0016.jpg
+[2025-10-19 19:17:33] [    SUCESSO    ] Ref 9118 Cor C4
+                   - RUS_0017.jpg
+                   - RUS_0018.jpg
+                   - RUS_0019.jpg
+                   - RUS_0020.jpg
+[2025-10-19 19:18:00] [    SUCESSO    ] Ref 0159 Cor C3
+                   - RUS_0021.jpg
+                   - RUS_0022.jpg
+                   - RUS_0023.jpg
+                   - RUS_0024.jpg
+[2025-10-19 19:18:18] [   FALHA_API   ] Nenhuma imagem chave encontrada no lote
+                   - RUS_0025.jpg
+                   - RUS_0026.jpg
+                   - RUS_0027.jpg
+                   - RUS_0028.jpg
+                   - RUS_0029.jpg
+[2025-10-19 19:18:31] [    SUCESSO    ] Ref 21229 Cor C1
+                   - RUS_0030.jpg
+                   - RUS_0031.jpg
+                   - RUS_0032.jpg
+[2025-10-19 19:18:45] [    SUCESSO    ] Ref 21229 Cor C3
+                   - RUS_0033.jpg
+                   - RUS_0034.jpg
+                   - RUS_0035.jpg
+                   - RUS_0036.jpg
+[2025-10-19 19:18:58] [    SUCESSO    ] Ref 21229 Cor C5
+                   - RUS_0037.jpg
+                   - RUS_0038.jpg
+                   - RUS_0039.jpg
+                   - RUS_0040.jpg
+[2025-10-19 19:20:00] [    SUCESSO    ] Ref 21229 Cor C4
+                   - RUS_0041.jpg
+                   - RUS_0042.jpg
+                   - RUS_0043.jpg
+                   - RUS_0044.jpg
+[2025-10-19 19:20:11] [    SUCESSO    ] Ref 61024 Cor C4
+                   - RUS_0045.jpg
+                   - RUS_0046.jpg
+                   - RUS_0047.jpg
+                   - RUS_0048.jpg
+[2025-10-19 19:20:21] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:20:38] [    SUCESSO    ] Ref 61024- Cor C2
+                   - RUS_0053.jpg
+                   - RUS_0054.jpg
+                   - RUS_0055.jpg
+                   - RUS_0056.jpg
+[2025-10-19 19:20:48] [    SUCESSO    ] Ref 61024 Cor C5
+                   - RUS_0057.jpg
+                   - RUS_0058.jpg
+                   - RUS_0059.jpg
+                   - RUS_0060.jpg
+[2025-10-19 19:23:07] [    SUCESSO    ] Ref 61010 Cor C5
+                   - RUS_0061.jpg
+                   - RUS_0062.jpg
+                   - RUS_0063.jpg
+                   - RUS_0064.jpg
+[2025-10-19 19:23:18] [    SUCESSO    ] Ref 61010 Cor C2
+                   - RUS_0065.jpg
+                   - RUS_0066.jpg
+                   - RUS_0067.jpg
+                   - RUS_0068.jpg
+[2025-10-19 19:23:27] [    SUCESSO    ] Ref 81010 Cor C1
+                   - RUS_0069.jpg
+                   - RUS_0070.jpg
+                   - RUS_0071.jpg
+                   - RUS_0072.jpg
+[2025-10-19 19:23:38] [    SUCESSO    ] Ref 61020 Cor C3
+                   - RUS_0073.jpg
+                   - RUS_0074.jpg
+                   - RUS_0075.jpg
+                   - RUS_0076.jpg
+[2025-10-19 19:23:52] [    SUCESSO    ] Ref S1030 Cor C4
+                   - RUS_0077.jpg
+                   - RUS_0078.jpg
+                   - RUS_0079.jpg
+                   - RUS_0080.jpg
+[2025-10-19 19:24:13] [    SUCESSO    ] Ref 61020 Cor C5
+                   - RUS_0081.jpg
+                   - RUS_0082.jpg
+                   - RUS_0083.jpg
+                   - RUS_0084.jpg
+[2025-10-19 19:24:25] [    SUCESSO    ] Ref 9422 Cor C5
+                   - RUS_0085.jpg
+                   - RUS_0086.jpg
+                   - RUS_0087.jpg
+                   - RUS_0088.jpg
+[2025-10-19 19:24:36] [    SUCESSO    ] Ref 9122 Cor C2
+                   - RUS_0089.jpg
+                   - RUS_0090.jpg
+                   - RUS_0091.jpg
+                   - RUS_0092.jpg
+[2025-10-19 19:24:47] [    SUCESSO    ] Ref 9122 Cor C3
+                   - RUS_0096.jpg
+                   - RUS_0097.jpg
+                   - RUS_0098.jpg
+                   - RUS_0099.jpg
+[2025-10-19 19:24:57] [    SUCESSO    ] Ref 9122 Cor C1
+                   - RUS_0100.jpg
+                   - RUS_0101.jpg
+                   - RUS_0102.jpg
+                   - RUS_0103.jpg
+[2025-10-19 19:26:03] [    SUCESSO    ] Ref 1389 Cor C5
+                   - RUS_0105.jpg
+                   - RUS_0106.jpg
+                   - RUS_0107.jpg
+                   - RUS_0108.jpg
+[2025-10-19 19:26:12] [    SUCESSO    ] Ref 4389 Cor C3
+                   - RUS_0109.jpg
+                   - RUS_0110.jpg
+                   - RUS_0111.jpg
+                   - RUS_0112.jpg
+[2025-10-19 19:26:24] [    SUCESSO    ] Ref 1389 Cor C4
+                   - RUS_0113.jpg
+                   - RUS_0114.jpg
+                   - RUS_0115.jpg
+                   - RUS_0116.jpg
+[2025-10-19 19:26:38] [    SUCESSO    ] Ref 61002 Cor C5
+                   - RUS_0117.jpg
+                   - RUS_0118.jpg
+                   - RUS_0119.jpg
+                   - RUS_0120.jpg
+[2025-10-19 19:26:50] [    SUCESSO    ] Ref 61002 Cor C4
+                   - RUS_0121.jpg
+                   - RUS_0122.jpg
+                   - RUS_0123.jpg
+                   - RUS_0124.jpg
+[2025-10-19 19:27:51] [    SUCESSO    ] Ref 61002 Cor C1
+                   - RUS_0125.jpg
+                   - RUS_0126.jpg
+                   - RUS_0127.jpg
+                   - RUS_0128.jpg
+[2025-10-19 19:28:05] [    SUCESSO    ] Ref 1468 Cor C6
+                   - RUS_0129.jpg
+                   - RUS_0130.jpg
+                   - RUS_0131.jpg
+                   - RUS_0132.jpg
+[2025-10-19 19:28:19] [    SUCESSO    ] Ref 1468 Cor C1
+                   - RUS_0134.jpg
+                   - RUS_0135.jpg
+                   - RUS_0136.jpg
+[2025-10-19 19:28:31] [    SUCESSO    ] Ref 1468 Cor C21
+                   - RUS_0138.jpg
+                   - RUS_0139.jpg
+                   - RUS_0140.jpg
+                   - RUS_0141.jpg
+[2025-10-19 19:28:44] [    SUCESSO    ] Ref 9113 Cor C5
+                   - RUS_0142.jpg
+                   - RUS_0143.jpg
+                   - RUS_0144.jpg
+                   - RUS_0145.jpg
+[2025-10-19 19:34:35] [    SUCESSO    ] Ref 9113 Cor C4
+                   - RUS_0146.jpg
+                   - RUS_0147.jpg
+                   - RUS_0148.jpg
+                   - RUS_0149.jpg
+[2025-10-19 19:34:46] [    SUCESSO    ] Ref 9113 Cor C3
+                   - RUS_0150.jpg
+                   - RUS_0151.jpg
+                   - RUS_0152.jpg
+                   - RUS_0153.jpg
+[2025-10-19 19:34:59] [    SUCESSO    ] Ref 21223 Cor C1
+                   - RUS_0154.jpg
+                   - RUS_0155.jpg
+                   - RUS_0156.jpg
+[2025-10-19 19:35:09] [    SUCESSO    ] Ref 21223 Cor C2
+                   - RUS_0157.jpg
+                   - RUS_0158.jpg
+                   - RUS_0159.jpg
+                   - RUS_0160.jpg
+[2025-10-19 19:35:21] [    SUCESSO    ] Ref 21223 Cor C5
+                   - RUS_0161.jpg
+                   - RUS_0162.jpg
+                   - RUS_0163.jpg
+                   - RUS_0164.jpg
+[2025-10-19 19:38:53] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:39:04] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:39:14] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:39:25] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:39:34] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:44:09] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:44:19] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:44:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:44:42] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:44:50] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:45:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:45:42] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:45:59] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:46:08] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:46:17] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:47:43] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:47:53] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:48:02] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:48:11] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:48:19] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:50:05] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:50:14] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:50:27] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:50:36] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:50:51] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:51:31] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:51:40] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:51:47] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:51:58] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:52:11] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:52:54] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:53:03] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:53:11] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:53:19] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:53:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:53:46] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:53:55] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:54:05] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:54:17] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:54:27] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:55:12] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:55:19] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:55:28] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:55:37] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:55:53] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:56:50] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:57:02] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:57:18] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:57:27] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+                   - RUS_0168.jpg
+[2025-10-19 19:57:35] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:57:50] [  SCRIPT_STOP  ] Script interrompido pelo usuário.
+[2025-10-19 19:57:50] [  SCRIPT_END   ] Processamento concluído.
+[2025-10-19 19:58:03] [ SCRIPT_START  ] Script iniciado.
+[2025-10-19 19:58:18] [    SUCESSO    ] Ref 9118 Cor C2
+                   - RUS_0025.jpg
+                   - RUS_0026.jpg
+                   - RUS_0027.jpg
+                   - RUS_0028.jpg
+[2025-10-19 19:58:32] [    SUCESSO    ] Ref 0037 Cor C4
+                   - RUS_0165.jpg
+                   - RUS_0166.jpg
+                   - RUS_0167.jpg
+[2025-10-19 19:58:52] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 19:59:01] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:59:13] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 19:59:23] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 19:59:41] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 19:59:54] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:00:05] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:00:16] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:00:30] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:00:42] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:01:06] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:01:16] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:01:40] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:01:51] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:02:04] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:02:20] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:02:31] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:02:44] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:02:56] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:03:07] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:03:38] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:03:51] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:04:04] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:04:16] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:04:40] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:04:50] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:05:15] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:05:28] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:05:43] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:05:55] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:06:09] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:06:22] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:06:33] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:06:43] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:06:59] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:07:15] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:07:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:07:39] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:07:55] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:08:06] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:08:20] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:08:35] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:08:48] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:09:01] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:09:33] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:09:46] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:09:59] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:10:10] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:10:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:10:38] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:10:57] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:11:12] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:11:23] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:11:35] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:11:52] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:12:07] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:12:22] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:12:35] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:13:01] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:13:15] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:13:51] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:14:01] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:14:25] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:14:38] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:14:52] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:15:06] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:15:16] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:15:31] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:15:44] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:15:58] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:16:11] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:16:24] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:16:37] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:16:50] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:17:13] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:17:21] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:17:52] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:18:04] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:18:28] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:18:39] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:19:00] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:19:15] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:19:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:19:41] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:20:01] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:20:13] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:20:24] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:20:34] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:20:44] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:20:55] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:21:07] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:21:23] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:21:44] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:21:58] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:22:12] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:22:24] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:22:40] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:22:49] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:22:58] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:23:14] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:23:40] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:23:56] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:24:17] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:24:27] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:24:37] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:24:53] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:25:04] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:25:18] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:25:28] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:25:38] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:25:50] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:26:04] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:26:15] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:26:29] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:26:49] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:27:02] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:27:25] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:27:34] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:28:01] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:28:13] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:28:43] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:28:56] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:29:14] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-19 20:29:26] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:30:08] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:30:20] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:30:31] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+[2025-10-19 20:30:41] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-19 20:30:52] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-20 18:12:19] [ SCRIPT_START  ] Script iniciado.
+[2025-10-20 18:12:38] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-20 18:12:51] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
+                   - RUS_0169.jpg
+                   - RUS_0170.jpg
+[2025-10-20 18:13:14] [ SCRIPT_START  ] Script iniciado.
+[2025-10-20 18:13:25] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0049.jpg
+                   - RUS_0050.jpg
+                   - RUS_0051.jpg
+                   - RUS_0052.jpg
+[2025-10-20 18:13:39] [    SUCESSO    ] Ref 61024 Cor C3
+                   - RUS_0168.jpg
